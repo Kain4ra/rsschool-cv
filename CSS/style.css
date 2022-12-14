@@ -1,0 +1,241 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: .04em;
+  color: white;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all .1s;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, .8);
+}
+
+body {
+  width: 100%;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Nav start */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-link {
+  font-size: 25px;
+}
+/* Nav end */
+
+/* Header start */
+.header {
+  min-width: 1200px;
+  height: 400px;
+  background-color: #ffe100;
+  box-shadow: 0px 0px 10px 3px grey;
+  margin-bottom: 40px;
+}
+
+.wrap-header {
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-photo {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px black;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 2px 2px 4px black;
+}
+
+.title span {
+  font-size: 90px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.subtitle {
+  padding-right: 30px;
+  text-align: end;
+  font-size: 30px;
+  letter-spacing: .1em;
+  color: black;
+  text-decoration: underline 1px;
+}
+/* Header end */
+
+/* Main start */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.container:not(:last-child) {
+  border-bottom: 1px solid #ffe100;
+}
+
+.right-box {
+  width: 70%;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: .05em;
+  color: #ffe100;
+}
+/* Contacts & About me start */
+.contacts-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts-ico {
+  margin-right: 10px;
+}
+
+.text {
+  line-height: 1.5em;
+}
+/* Contacts & About me end */
+
+/* Skill & Code Example start */
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.level-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.level-item {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all .1s;
+}
+
+.level-item:hover {
+  transform: scale(110%);
+}
+
+.level-done {
+  background-color: #ffe100;
+}
+
+.code-title{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.code-description {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.code-example {
+  color: #ffe100a5;
+}
+/* Skill & Code Example end */
+
+/* Education & Courses start */
+.education-item {
+  margin-bottom: 10px;
+}
+
+.courses-item {
+  margin-bottom: 10px;
+}
+
+.courses-status {
+  font-style: italic;
+  color: #ffe100a5;
+}
+/* Education & Courses end */
+
+/* English level & Work Experience start */
+.level-color {
+  color: #ffe100;
+}
+/* English level & Work Experience end */
+
+/* Main end */
+
+/* Footer start */
+.footer {
+  padding: 20px 0px;
+  box-shadow: 0px 0px 10px 3px grey;
+  background-color: #ffe100;
+}
+
+.wrap-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.rss-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.data {
+  font-weight: 700;
+  color: black;
+}
+/* Footer end */
