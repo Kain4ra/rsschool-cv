@@ -1,2 +1,1 @@
-# rsschool-cv
-Kain4ra/rsschool-cv
+https://GITHUB-USERNAME.Kain4ra/rsschool-cv/cv
