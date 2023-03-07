@@ -43,3 +43,20 @@ function solution(str, ending){
 You have a chance to be the first. If you know what i mean..
 
 ---
+
+### Education
+
+* High school
+* Music school
+
+##### Courses:
+* [HTML(Code Basics)](https://code-basics.com/ru/languages/html)
+* [CSS(Code Basics)](https://code-basics.com/ru/languages/css)
+* [JS(Code Basics)](https://code-basics.com/ru/languages/javascript)
+* [JS/FE Pre-School 2022Q4(RS School)](https://rs.school/)
+
+---
+
+### English level
+
+**CEFR A1**
